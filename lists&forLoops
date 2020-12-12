@@ -1,0 +1,21 @@
+//Write code to create a list of integers from 0 through 52 and assign that list to the variable numbers. 
+//You should use a special Python function – do not type out the whole list yourself. HINT: You can do this in one line of code!
+
+numbers=list(range(0,53))
+
+//Count the number of characters in string str1. Do not use len(). Save the number in variable numbs.
+
+str1 = "I like nonsense, it wakes up the brain cells. Fantasy is a necessary ingredient in living."
+numbs=0
+for i in str1:
+    numbs=numbs+1
+
+
+//Create a list of numbers 0 through 40 and assign this list to the variable numbers. 
+//Then, accumulate the total of the list’s values and assign that sum to the variable sum1.
+
+numbers=list(range(0,41))
+w=0
+for i in numbers:
+    w=w+i
+sum1=w
